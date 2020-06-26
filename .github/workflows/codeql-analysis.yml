@@ -50,3 +50,6 @@ jobs:
 
     - name: Perform CodeQL Analysis
       uses: Faten-Org/codeql-action/analyze@v1
+ queries:
+  - name: Extra
+    uses: https://github.com/github/codeql/blob/master/csharp/ql/src/Configuration/PasswordInConfigurationFile.ql
